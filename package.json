@@ -1,0 +1,26 @@
+{
+  "name": "novus-extension-cli-downloader",
+  "version": "0.0.1",
+  "description": "本存儲庫包含了 Novus 的腳本核心執行擴充功能，這是一個多功能工具，旨在增強 Novus 平台的核心功能。有了這個擴充功能，用戶可以在 Novus 直接執行所寫的步驟腳本。",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "init": "echo \"Install dependencies of Novus-Extension-LCI-Downloader\" && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yomisana-Lab/Novus-Extension-CLI-Downloader.git"
+  },
+  "author": "Yomisana",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Yomisana-Lab/Novus-Extension-CLI-Downloader/issues"
+  },
+  "homepage": "https://github.com/Yomisana-Lab/Novus-Extension-CLI-Downloader#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "fs-extra": "^11.2.0",
+    "multi-progress-bars": "^5.0.3"
+  }
+}
